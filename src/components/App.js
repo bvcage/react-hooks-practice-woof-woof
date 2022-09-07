@@ -31,6 +31,7 @@ function App() {
       else return dog;
     })
     setAllDogsAry(updatedDogsAry);
+
     if (goodDogsOnly) {
       const goodDogAry = updatedDogsAry.filter(dog => dog.isGoodDog)
       updateDogBarAry(goodDogAry);
